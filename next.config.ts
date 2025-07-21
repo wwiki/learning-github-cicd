@@ -1,9 +1,9 @@
-import type { NextConfig } from "next";
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // 启用静态导出
-    basePath: '/learning-github-cicd', // 你的 GitHub 仓库名
+    output: 'export',
+    basePath: '/learning-github-cicd',
     assetPrefix: '/learning-github-cicd',
-}
+};
 
-export default nextConfig;
+module.exports = nextConfig;
+
